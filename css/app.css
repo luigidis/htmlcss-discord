@@ -26,15 +26,14 @@ ul, ol, menu {
     margin: 0 auto;
     max-width: 1192px;
     justify-content: space-between;
+    padding: 5px;
 }
 
 [class^='col'] {
     background-color: #CF003E;
-    
     flex-basis: 25%;
     max-height: 34px;
     
-      
 }
 
 .col-2 {
