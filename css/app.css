@@ -25,7 +25,7 @@ ul, ol, menu {
     min-height: 53px;
     margin: 0 auto;
     max-width: 1192px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding-bottom: 5px;
     padding-top: 5px;
     padding-left: 1px;
@@ -34,7 +34,8 @@ ul, ol, menu {
 
 [class^='col'] {
     background-color: #CF003E;
-    flex-basis: calc((100% - 10px) / 4);
+    /* flex-basis: calc((100% - 10px) / 4); */
+    flex-basis: 25%;
     max-height: 34px;
     border: 1px solid white;
    
@@ -44,3 +45,27 @@ ul, ol, menu {
     flex-grow: 1;
 }
 
+.section-container {
+    margin: 0 auto;
+    max-width: 1906px;
+    border: 5px solid blue;
+    justify-content: center;
+    padding-top: 42px;
+    padding-bottom: 42px;   
+}
+
+.div-container {
+    border: solid 5px #FF7A00;
+    min-height: 1192px;
+    min-width: 409px;
+    justify-content: center;
+    padding: 5px;
+            
+}
+
+.div-main {
+    border: solid 5px yellow;
+    padding-left: 145px;
+    padding-right: 146px;
+       
+}
