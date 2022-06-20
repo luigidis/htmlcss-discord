@@ -27,7 +27,7 @@ body {
 
 .main-container {
     border: solid 5px #FF7A00;
-    min-height: 53px;
+    min-height: 53px;   /* FIXME: */
     margin: 0 auto;
     max-width: 1192px;
     /* justify-content: space-between; */
@@ -59,8 +59,8 @@ body {
 
 .div-container {
     border: solid 5px #FF7A00;
-    min-width: 1192px;
-    min-height: 409px;
+    min-width: 1192px;  /* FIXME: */
+    min-height: 409px;  /* FIXME: */
     justify-content: center;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -71,8 +71,8 @@ body {
 
 .div-main {
     border: solid 5px yellow;
-    min-width: 901px;
-    min-height: 387px;
+    min-width: 901px;   /* FIXME: */
+    min-height: 387px;  /* FIXME: */
        
 }
 
@@ -80,8 +80,8 @@ body {
 
 .section-container-2 {
     border: 5px solid blue;
-    min-width: 1906px;
-    min-height: 601px;
+    min-width: 1906px;  /* FIXME: */
+    min-height: 601px;  /* FIXME: */
     justify-content: center;
     padding-top: 40px;
     padding-bottom: 39px;
@@ -89,8 +89,8 @@ body {
 
 .div-container-2 {
     border: 5px solid #FF7A00;
-    min-width: 1192px;
-    min-height: 522px;
+    min-width: 1192px;  /* FIXME: */
+    min-height: 522px;  /* FIXME: */
     
 }
 
@@ -133,8 +133,8 @@ body {
 }
 
 .tab {
-    min-width: 193px;
-    min-height: 536px;
+    min-width: 193px;   /* FIXME: */
+    min-height: 536px;  /* FIXME: */
     border: solid 1px black;
 }
 
@@ -151,8 +151,8 @@ body {
 
 .slot {
     border: solid 5px black;
-    min-width: 74px;
-    min-height: 33px;
+    min-width: 74px;    /* FIXME: */
+    min-height: 33px;   /* FIXME: */
 }
 
 
