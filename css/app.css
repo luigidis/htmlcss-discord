@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, menu {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.head-container {
+    border: solid 5px rgb(125, 250, 114);
+    /* 7 */
+    margin: 0 auto;
+    max-width: 1906px;
+    
+}
+
+.main-container {
+    border: solid 5px #FF7A00;
+    min-height: 53px;
+    margin: 0 auto;
+    max-width: 1192px;
+    justify-content: space-between;
+}
+
+[class^='col'] {
+    background-color: #CF003E;
+    
+    flex-basis: 25%;
+    max-height: 34px;
+    
+      
+}
+
+.col-2 {
+    flex-grow: 1;
+}
+
