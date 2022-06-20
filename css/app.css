@@ -107,3 +107,52 @@ body {
 .row-reverse {
     flex-direction: row-reverse;
 }
+
+.section-container-3 {
+    border: 5px solid rgb(228, 17, 10);
+    max-width: 1906px;
+    max-height: 731px;
+}
+
+.div-container-3 {
+    border: 5px solid blue;
+    padding-top: 19px;
+    padding-bottom: 24px;
+}
+
+.div-container-4 {
+    border: 5px solid blue;
+}
+
+.div-container-3-1 {
+    border: 5px solid yellow;
+    margin: 0 auto;
+    max-width: 1192px;
+    max-height: 553px;
+    justify-content: center;
+}
+
+.tab {
+    min-width: 193px;
+    min-height: 536px;
+    border: solid 1px black;
+}
+
+.div-container-4-1 {
+    border: solid 5px orange;
+    margin: 0 auto;
+    max-width: 1192px;
+    max-height: 58px;
+    padding-top: 17px;
+    padding-bottom: 8px;
+    justify-content: space-between;
+
+}
+
+.slot {
+    border: solid 5px black;
+    min-width: 74px;
+    min-height: 33px;
+}
+
+
