@@ -8,6 +8,11 @@ ul, ol, menu {
     list-style: none;
 }
 
+body {
+    margin: 0 auto;
+    max-width: 1906px;
+}
+
 .flex {
     display: flex;
 }
@@ -46,12 +51,10 @@ ul, ol, menu {
 }
 
 .section-container {
-    margin: 0 auto;
-    max-width: 1906px;
     border: 5px solid blue;
     justify-content: center;
     padding-top: 42px;
-    padding-bottom: 42px;   
+    padding-bottom: 42px;  
 }
 
 .div-container {
@@ -59,13 +62,48 @@ ul, ol, menu {
     min-width: 1192px;
     min-height: 409px;
     justify-content: center;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 145px;
+    padding-right: 146px;
             
 }
 
 .div-main {
     border: solid 5px yellow;
-    padding-left: 145px;
-    padding-right: 146px;
+    min-width: 901px;
+    min-height: 387px;
        
+}
+
+/* Creazione sezione che puoi verrà Triplicata */
+
+.section-container-2 {
+    border: 5px solid blue;
+    min-width: 1906px;
+    min-height: 601px;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 39px;
+}
+
+.div-container-2 {
+    border: 5px solid #FF7A00;
+    min-width: 1192px;
+    min-height: 522px;
+    
+}
+
+.div-main-60 {
+    border: solid 5px black;
+    flex-basis: 60%;
+}
+
+.div-main-40 {
+    border: solid 5px grey;
+    flex-basis: 40%;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
 }
