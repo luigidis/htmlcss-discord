@@ -148,7 +148,9 @@ body {
     border: 5px solid #FF7A00;
     /* max-width: 1906px;
     margin: 0 auto;  */
-    min-height: 522px;  /* FIXME: */    
+    min-height: 522px;  /* FIXME: */
+    max-width: 1100px;
+    margin: 0 auto;    
 }
 
 .div-main-60 {
@@ -167,9 +169,9 @@ body {
 
 #text-1 {
     padding: 25px 15px 15px 25px;
-    text-align: left;
-    max-width: 410px;
-    margin: 0 auto;
+    /* text-align: left; */
+    /* max-width: 410px; */
+    /* margin: 0 auto; */
 }
 
 #text-1  h2 {
@@ -181,18 +183,57 @@ body {
     font-size: 1.5em;
 }
 
-#max-1 {
+/* #max-1 {
     max-width: 1100px;
     margin: 0 auto;
-}
+} */
 /* FINE PRIMA PARTE DELLA SEZIONE PRINCIPALE */
+
+/* INIZIO SECONDA PARTE SEZIONE PRINCIPALE */
+
+#text-2, #text-3 {
+    padding: 25px;
+}
+
+#text-2 h2 {
+    font-size: 2.5em;
+}
+
+#text-2 p {
+    font-size: 1.5em;
+    padding-top: 25px;
+}
 .row-reverse {
     flex-direction: row-reverse;
+}
+/* FINE SECONDA PARTE SEZ PRINC */
+/* INIZIO TERZA PARTE SEZ PRINC */
+
+#text-3 h2 {
+    font-size: 2em;
+}
+
+#text-3 p {
+    padding-top: 25px;
+    font-size: 1.5em;
+}
+
+/* FINE TERZA PARTE SEZIONE PRINC */
+/* INIZIO PARTE QUATTRO */
+
+.div-container-5 {
+    border: 5px solid salmon;
+    padding: 5px;
+    max-width: 1110px;
+    margin: 0 auto;
+    min-height: 400px;
+}
+.w-100 {
+    flex-basis: 100%;
 }
 
 .section-container-3 {
     border: 5px solid rgb(228, 17, 10);
-    max-width: 1906px;
     max-height: 731px;
 }
 
