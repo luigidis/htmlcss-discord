@@ -10,7 +10,6 @@ ul, ol, menu {
 
 body {
     margin: 0 auto;
-    max-width: 1906px;
 }
 
 .flex {
@@ -22,27 +21,26 @@ body {
     /* border: solid 5px rgb(125, 250, 114); */
     margin: 0 auto;
     max-width: 1906px;
-    padding-top: 15px;
-    
+    padding-top: 15px; 
 }
 
 .main-container {
     /* border: solid 5px #FF7A00; */
-    min-height: 53px;   /* FIXME: */
+    /* min-height: 53px;   FIXME: */
     margin: 0 auto;
     max-width: 1192px;
     /* justify-content: space-between; */
     padding-bottom: 5px;
     padding-top: 5px;
-    padding-left: 1px;
-    padding-right: 1px;
+    /* padding-left: 1px;
+    padding-right: 1px; */
 }
 
 [class^='col'] {
     /* background-color: #CF003E; */
     /* flex-basis: calc((100% - 10px) / 4); */
     flex-basis: 25%;
-    max-height: 34px;
+    /* max-height: 34px; */
     /* border: 1px solid white;  */
 }
 
@@ -60,7 +58,8 @@ body {
     font-weight: bold;
     background-color: white;
     border-radius: 15px;
-    padding: 5px;
+    padding: 0 7px;
+    line-height: 40px;
 }
 
 .head-list {
@@ -74,31 +73,38 @@ body {
 }
 /* FINE HEADER INIZIO SECTION */
 
+/* PRIMA SEZIONE */
+
 .section-container {
     border: 5px solid blue;
-    justify-content: center;
+    /* justify-content: center; */
     padding-top: 42px;
     padding-bottom: 42px;  
 }
 
 .div-container {
     border: solid 5px #FF7A00;
-    min-width: 1192px;  /* FIXME: */
+    max-width: 1192px;
+    margin: 0 auto;
     min-height: 409px;  /* FIXME: */
     justify-content: center;
     padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 145px;
-    padding-right: 146px;
-            
+    padding-bottom: 5px;         
 }
 
 .div-main {
     border: solid 5px yellow;
-    min-width: 901px;   /* FIXME: */
+    max-width: 680px;
     min-height: 387px;  /* FIXME: */
        
 }
+
+.div-container * {
+    text-align: center;
+    padding: 25px;
+}
+
+/* FINE PRIMA SEZIONE */
 
 /* Creazione sezione che puoi verrà Triplicata */
 
