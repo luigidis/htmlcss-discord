@@ -98,7 +98,7 @@ body {
 }
 
 .div-main {
-    border: solid 5px yellow;
+    /* border: solid 5px yellow; */
     max-width: 680px;
     min-height: 387px;  /* FIXME: */
        
@@ -138,19 +138,17 @@ body {
 /* Creazione sezione che puoi verrà Triplicata */
 
 .section-container-2 {
-    border: 5px solid blue;
-    min-width: 1906px;  /* FIXME: */
+    border: 5px solid blue;       
     min-height: 601px;  /* FIXME: */
-    justify-content: center;
     padding-top: 40px;
     padding-bottom: 39px;
 }
 
 .div-container-2 {
     border: 5px solid #FF7A00;
-    min-width: 1192px;  /* FIXME: */
-    min-height: 522px;  /* FIXME: */
-    
+    max-width: 1906px;
+    margin: 0 auto; 
+    min-height: 522px;  /* FIXME: */    
 }
 
 .div-main-60 {
@@ -163,6 +161,27 @@ body {
     flex-basis: 40%;
 }
 
+#img-1 img {
+    padding-left: 50px;
+}
+
+#text-1 {
+    padding: 25px 15px 15px 25px;
+    text-align: left;
+    max-width: 410px;
+    margin: 0 auto;
+}
+
+#text-1  h2 {
+    font-size: 2.5em;
+}
+
+#text-1 p {
+    padding-top: 25px;
+    font-size: 1.5em;
+}
+
+/* FINE PRIMA PARTE DELLA SEZIONE PRINCIPALE */
 .row-reverse {
     flex-direction: row-reverse;
 }
