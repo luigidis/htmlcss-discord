@@ -162,7 +162,7 @@ body {
 }
 
 #img-1 img {
-    padding-left: 50px;
+    /* padding-left: 50px; */
 }
 
 #text-1 {
@@ -181,6 +181,9 @@ body {
     font-size: 1.5em;
 }
 
+#max-1 {
+    max-width: 900px;
+}
 /* FINE PRIMA PARTE DELLA SEZIONE PRINCIPALE */
 .row-reverse {
     flex-direction: row-reverse;
