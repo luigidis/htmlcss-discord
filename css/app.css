@@ -49,6 +49,23 @@ body {
     flex-grow: 1;
 }
 
+.col-3 {
+    justify-content: flex-end;
+}
+
+#acces {
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.head-list {
+    justify-content: space-between;
+}
+
 .section-container {
     border: 5px solid blue;
     justify-content: center;
