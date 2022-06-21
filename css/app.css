@@ -285,9 +285,9 @@ body {
     margin: 0 auto;
 }
 
-.div-container-4 {
-    /* border: 5px solid blue; */
-}
+/* .div-container-4 {
+     border: 5px solid blue; 
+} */
 
 .div-container-3-1 {
     /* border: 5px solid yellow; */
@@ -316,11 +316,11 @@ body {
 
 }
 
-.slot {
-    /* border: solid 5px black; */
-    /* min-width: 74px;    
-    min-height: 33px;    */
-}
+/* .slot {
+    border: solid 5px black;
+    min-width: 74px;    
+    min-height: 33px;   
+} */
 
 
 #grow-1 {
