@@ -138,14 +138,14 @@ body {
 /* Creazione sezione che puoi verrà Triplicata */
 
 .section-container-2 {
-    border: 5px solid blue;       
+    /* border: 5px solid blue;        */
     min-height: 601px;  /* FIXME: */
     padding-top: 40px;
     padding-bottom: 39px;
 }
 
 .div-container-2 {
-    border: 5px solid #FF7A00;
+    /* border: 5px solid #FF7A00; */
     /* max-width: 1906px;
     margin: 0 auto;  */
     min-height: 522px;  /* FIXME: */
@@ -154,12 +154,12 @@ body {
 }
 
 .div-main-60 {
-    border: solid 5px black;
+    /* border: solid 5px black; */
     flex-basis: 60%;
 }
 
 .div-main-40 {
-    border: solid 5px grey;
+    /* border: solid 5px grey; */
     flex-basis: 40%;
 }
 
@@ -223,7 +223,7 @@ body {
 /* INIZIO PARTE QUATTRO */
 
 .div-container-5 {
-    border: 5px solid salmon;
+    /* border: 5px solid salmon; */
     padding: 5px;
     max-width: 1110px;
     margin: 0 auto;
@@ -261,51 +261,102 @@ body {
     line-height: 35px;
     padding: 0 25px;
 }
+/* INIZIO PARTE CINQUE CIOE' FOOTER */
 
 .section-container-3 {
-    border: 5px solid rgb(228, 17, 10);
+    /* border: 5px solid rgb(228, 17, 10); */
     max-height: 731px;
+    background-color: rgb(53, 69, 92);
 }
 
 .div-container-3 {
-    border: 5px solid blue;
+    /* border-bottom: 2px solid cornflowerblue; */
     padding-top: 19px;
     padding-bottom: 24px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .div-container-4 {
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
 }
 
 .div-container-3-1 {
-    border: 5px solid yellow;
+    /* border: 5px solid yellow; */
     margin: 0 auto;
-    max-width: 1192px;
+    max-width: 1100px;
     max-height: 553px;
     justify-content: center;
 }
 
-.tab {
-    min-width: 193px;   /* FIXME: */
-    min-height: 536px;  /* FIXME: */
-    border: solid 1px black;
-}
+/* DA RIVEDERE QUESTA CLASSE CSS */
+
+ .tab { 
+    min-width: 193px;   
+    min-height: 536px;
+    /* border: solid 1px black; */
+} 
 
 .div-container-4-1 {
-    border: solid 5px orange;
+    /* border: solid 5px orange; */
     margin: 0 auto;
-    max-width: 1192px;
-    max-height: 58px;
-    padding-top: 17px;
+    max-width: 1100px;
+    /* max-height: 58px; */
+    /* padding-top: 17px; */
     padding-bottom: 8px;
     justify-content: space-between;
 
 }
 
 .slot {
-    border: solid 5px black;
-    min-width: 74px;    /* FIXME: */
-    min-height: 33px;   /* FIXME: */
+    /* border: solid 5px black; */
+    /* min-width: 74px;    
+    min-height: 33px;    */
 }
 
 
+#grow-1 {
+    flex-grow: 1;
+}
+
+.tab li {
+    padding: 15px 10px;
+}
+
+#grow-1 img {
+    max-width: 25px;
+}
+
+#grow-1 h3 {
+    padding: 25px;
+    color: cornflowerblue;
+    font-size: 2em;
+}
+
+#grow-1 p {
+    padding: 25px;
+}
+
+#social a {
+    padding-left: 25px;
+}
+
+ul li:first-child {
+    padding-top: 25px;
+    color: cornflowerblue;
+}
+
+.div-container-3-1 * {
+    font-weight: bold;
+    color: white;
+}
+
+#reg {
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 70px;
+    color: white;
+    background-color: cornflowerblue;
+    line-height: 40px;
+    padding: 8px;
+}
