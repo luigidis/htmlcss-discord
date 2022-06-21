@@ -146,8 +146,8 @@ body {
 
 .div-container-2 {
     border: 5px solid #FF7A00;
-    max-width: 1906px;
-    margin: 0 auto; 
+    /* max-width: 1906px;
+    margin: 0 auto;  */
     min-height: 522px;  /* FIXME: */    
 }
 
@@ -182,7 +182,8 @@ body {
 }
 
 #max-1 {
-    max-width: 900px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 /* FINE PRIMA PARTE DELLA SEZIONE PRINCIPALE */
 .row-reverse {
