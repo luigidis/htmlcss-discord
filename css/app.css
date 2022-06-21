@@ -46,6 +46,7 @@ body {
 
 .col-2 {
     flex-grow: 1;
+    line-height: 30px;
 }
 
 .col-3 {
@@ -57,9 +58,9 @@ body {
     color: grey;
     font-weight: bold;
     background-color: white;
-    border-radius: 15px;
-    padding: 0 7px;
-    line-height: 40px;
+    border-radius: 70px;
+    padding: 0 15px;
+    line-height: 37px;
 }
 
 .head-list {
@@ -69,21 +70,25 @@ body {
 }
 
 #b-blue {
-    background-color: cornflowerblue;
+    background-color: #255EE9;
 }
 /* FINE HEADER INIZIO SECTION */
 
 /* PRIMA SEZIONE */
 
 .section-container {
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
     /* justify-content: center; */
     padding-top: 42px;
-    padding-bottom: 42px;  
+    padding-bottom: 42px;
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
 }
 
 .div-container {
-    border: solid 5px #FF7A00;
+    /* border: solid 5px #FF7A00; */
     max-width: 1192px;
     margin: 0 auto;
     min-height: 409px;  /* FIXME: */
@@ -102,8 +107,32 @@ body {
 .div-container * {
     text-align: center;
     padding: 25px;
+    color: white;
+    font-weight: bold;
 }
 
+.div-container h1 {
+    font-size: 2.5em;
+}
+
+.div-container a {
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 25px;
+    border-radius: 70px;
+}
+
+#button-1 {
+    border-radius: 70px;
+    background-color: white;
+    color: black;
+}
+
+#button-2 {
+    background-color: rgb(26, 29, 32);
+    margin-left: 20px;
+}
 /* FINE PRIMA SEZIONE */
 
 /* Creazione sezione che puoi verrà Triplicata */
