@@ -349,7 +349,7 @@ body {
     padding-left: 25px;
 }
 
-ul li:first-child {
+.tab ul li:first-child {
     padding-top: 25px;
     color: cornflowerblue;
 }
